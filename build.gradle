@@ -29,7 +29,7 @@ repositories {
 dependencies {
 	compileOnly 'org.springframework.boot:spring-boot-loader'
 
-    compile('org.springframework.boot:spring-boot-starter')
+	compile('org.springframework.boot:spring-boot-starter')
 }
 
 bootJar {
