@@ -10,7 +10,7 @@ public class ClassesFirstJarLauncher extends JarLauncher {
 
     @Override
     protected void postProcessClassPathArchives(List<Archive> archives) throws MalformedURLException {
-        for (int i = archives.size() - 1; i >= 0; i++) {
+        for (int i = archives.size() - 1; i >= 0; i--) {
             Archive archive = archives.get(i);
             if (archive.getUrl().getPath().endsWith("/classes!/")) {
                 archives.remove(archive);
