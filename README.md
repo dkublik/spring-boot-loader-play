@@ -1,7 +1,7 @@
 Spring Boot Loader Play
 ===============
 
-code example for http://dkublik.github.io/spring-boot-class-loader-and-class-override/
+code example for https://dkublik.github.io/2018/01/05/spring-boot-class-loader-and-class-override.html
 
 
 ## Requirements
